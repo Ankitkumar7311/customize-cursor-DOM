@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+}
+.cursor{
+    height: 10vw;
+    width: 10vw;
+    background-color:#fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference;
+
+}
+h1{
+    font-size: 6vw;
+    font-weight: 600;
+
+}
+.cursor img{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    
+    
+   
+}
